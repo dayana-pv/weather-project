@@ -1,0 +1,86 @@
+.container-style {
+  position: relative;
+  top: 70px;
+  width: 800px;
+  background: #a2d5f2;
+  font-family: "PT Serif", serif;
+  border-color: #07689f;
+}
+
+hr {
+  margin: 0px auto 5px;
+  border: 1px solid hsl(202, 92%, 33%);
+}
+
+.button-style {
+  background: #13ade9;
+}
+
+.card-principal {
+  margin: 35px auto;
+  background: radial-gradient(
+    997px at 5.8% 11.8%,
+    rgb(0, 201, 235) 0%,
+    rgb(145, 0, 228) 90%
+  );
+}
+
+.card-second {
+  background: radial-gradient(
+    997px at 5.8% 11.8%,
+    rgb(0, 201, 235) 0%,
+    rgb(145, 0, 228) 90%
+  );
+}
+
+.card-form {
+  margin: 15px;
+}
+
+.card-days {
+  margin: 7px;
+}
+
+.degreeCF {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+p {
+  text-align: center;
+  font-size: 12px;
+}
+.card-style {
+  margin: 30px;
+}
+
+.icon-country {
+  color: #07689f;
+  font-size: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-days {
+  color: #07689f;
+  font-size: 50px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
