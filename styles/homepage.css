@@ -84,3 +84,9 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+.footer {
+  position: absolute;
+  top: 510px;
+  margin: 0 245px;
+}
