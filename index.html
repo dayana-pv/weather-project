@@ -25,139 +25,142 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container mx-auto container-style rounded">
-      <div class="row">
-        <div class="col-4 card-second rounded-start">
-          <div class="card card-principal border-0">
-            <div class="card-body">
-              <div class="icon-country">
-                <i class="fa-solid fa-cloud-sun"></i>
+    <div class="container">
+      <div class="mx-auto container-style rounded">
+        <div class="row">
+          <div class="col-4 card-second rounded-start">
+            <div class="card card-principal border-0">
+              <div class="card-body">
+                <div class="icon-country">
+                  <i class="fa-solid fa-cloud-sun"></i>
+                </div>
+
+                <br />
+                <h1>Lima</h1>
+
+                <h2>
+                  <span id="degree">19</span>
+                  <span class="degreeCF"
+                    ><a href="#" id="degrees-celsius">°C</a> |
+                    <a href="#" id="degrees-fahrenheit">°F</a></span
+                  >
+                </h2>
+
+                <p>
+                  <span id="date"> Monday 0:39</span>
+                  <br />
+                  <span id="weather">Cloud</span>
+                  <br />
+                  Humidity: <span id="humidity">86</span>%
+                  <br />
+                  Wind: <span id="wind">5</span>km/h
+                </p>
               </div>
-
-              <br />
-              <h1>Lima</h1>
-
-              <h2>
-                <span id="degree">19</span>
-                <span class="degreeCF"
-                  ><a href="#" id="degrees-celsius">°C</a> |
-                  <a href="#" id="degrees-fahrenheit">°F</a></span
+            </div>
+          </div>
+          <div class="col-8">
+            <br />
+            <form class="row" id="city-form">
+              <div class="col-7">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter a city"
+                  id="input-city"
+                />
+              </div>
+              <div class="col-2">
+                <button type="submit" class="btn mb-3 button-style" id="search">
+                  Search
+                </button>
+              </div>
+              <div class="col-2">
+                <button
+                  type="submit"
+                  class="btn mb-3 button-style"
+                  id="current"
                 >
-              </h2>
+                  Current
+                </button>
+              </div>
+            </form>
+            <hr />
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-4">
+                <div class="card card-days">
+                  <div class="card-body">
+                    <div class="icon-days">
+                      <i class="fa-solid fa-cloud-sun"></i>
+                    </div>
 
-              <p>
-                <span id="date"> Monday 0:39</span>
-                <br />
-                <span id="weather">Cloud</span>
-                <br />
-                Humidity: <span id="humidity">86</span>%
-                <br />
-                Wind: <span id="wind">5</span>km/h
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-8">
-          <br />
-          <form class="row" id="city-form">
-            <div class="col-7">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Enter a city"
-                id="input-city"
-              />
-            </div>
-            <div class="col-2">
-              <button type="submit" class="btn mb-3 button-style" id="search">
-                Search
-              </button>
-            </div>
-            <div class="col-2">
-              <button type="submit" class="btn mb-3 button-style" id="current">
-                Current
-              </button>
-            </div>
-          </form>
-          <hr />
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-4">
-              <div class="card card-days">
-                <div class="card-body">
-                  <div class="icon-days">
-                    <i class="fa-solid fa-cloud-sun"></i>
+                    <h3>Monday</h3>
+                    <p>17°</p>
                   </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-days">
+                  <div class="card-body">
+                    <div class="icon-days">
+                      <i class="fa-solid fa-cloud-sun-rain"></i>
+                    </div>
+                    <h3>Tuesday</h3>
+                    <p>17°</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2"></div>
+            </div>
 
-                  <h3>Monday</h3>
-                  <p>17°</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card card-days">
-                <div class="card-body">
-                  <div class="icon-days">
-                    <i class="fa-solid fa-cloud-sun-rain"></i>
+            <div class="row">
+              <div class="col-4">
+                <div class="card card-days">
+                  <div class="card-body">
+                    <div class="icon-days">
+                      <i class="fa-solid fa-cloud-showers-heavy"></i>
+                    </div>
+                    <h3>Wednesday</h3>
+                    <p>15°</p>
                   </div>
-                  <h3>Tuesday</h3>
-                  <p>17°</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-days">
+                  <div class="card-body">
+                    <div class="icon-days">
+                      <i class="fa-solid fa-cloud-sun-rain"></i>
+                    </div>
+                    <h3>Thursay</h3>
+                    <p>17°</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-days">
+                  <div class="card-body">
+                    <div class="icon-days">
+                      <i class="fa-solid fa-cloud-showers-heavy"></i>
+                    </div>
+                    <h3>Friday</h3>
+                    <p>16°</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-2"></div>
+            <br />
           </div>
-
-          <div class="row">
-            <div class="col-4">
-              <div class="card card-days">
-                <div class="card-body">
-                  <div class="icon-days">
-                    <i class="fa-solid fa-cloud-showers-heavy"></i>
-                  </div>
-                  <h3>Wednesday</h3>
-                  <p>15°</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card card-days">
-                <div class="card-body">
-                  <div class="icon-days">
-                    <i class="fa-solid fa-cloud-sun-rain"></i>
-                  </div>
-                  <h3>Thursay</h3>
-                  <p>17°</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card card-days">
-                <div class="card-body">
-                  <div class="icon-days">
-                    <i class="fa-solid fa-cloud-showers-heavy"></i>
-                  </div>
-                  <h3>Friday</h3>
-                  <p>16°</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
         </div>
       </div>
-    </div>
-    <footer>
-      <div class="footer">
-        <p>
+      <div>
+        <p class="footer">
           <a href="https://github.com/dayana-pv/weather-project" target="_blank"
-            >Open-source code</a
-          >
+            >Open-source code
+          </a>
           by Dayana Peve
         </p>
       </div>
-    </footer>
-
+    </div>
     <script src="javaScript/script.js"></script>
   </body>
 </html>
