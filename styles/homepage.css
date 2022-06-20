@@ -1,59 +1,7 @@
-.container-style {
-  position: relative;
-  top: 70px;
-  width: 800px;
-  background: #a2d5f2;
-  font-family: "PT Serif", serif;
-  border-color: #07689f;
-}
-
-hr {
-  margin: 0px auto 5px;
-  border: 1px solid hsl(202, 92%, 33%);
-}
-
-.button-style {
-  background: #13ade9;
-}
-
-.card-principal {
-  margin: 35px auto;
-  background: radial-gradient(
-    997px at 5.8% 11.8%,
-    rgb(0, 201, 235) 0%,
-    rgb(145, 0, 228) 90%
-  );
-}
-
-.card-second {
-  background: radial-gradient(
-    997px at 5.8% 11.8%,
-    rgb(0, 201, 235) 0%,
-    rgb(145, 0, 228) 90%
-  );
-}
-
-.card-form {
-  margin: 15px;
-}
-
-.card-days {
-  margin: 7px;
-}
-
-.degreeCF {
-  font-size: 20px;
-}
-
 h1,
-h2,
 h3 {
   font-weight: bold;
   text-align: center;
-}
-
-h2 {
-  font-size: 35px;
 }
 
 h3 {
@@ -61,32 +9,99 @@ h3 {
 }
 
 p {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: PT Mono, monospace;
   text-align: center;
-  font-size: 12px;
-}
-.card-style {
-  margin: 30px;
 }
 
-.icon-country {
-  color: #07689f;
-  font-size: 110px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ul {
+  position: relative;
+  right: -47px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 3px 0;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  font-family: PT Mono, monospace;
+}
+
+hr {
+  margin: 0px auto 5px;
+  border: 1px solid hsl(202, 92%, 33%);
+}
+
+.weather-app-wrapper {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+.weather-information {
+  max-width: 230px;
+  margin: 0px 15px;
+  background: radial-gradient(
+    997px at 5.8% 11.8%,
+    rgb(0, 201, 235) 0%,
+    rgb(145, 0, 228) 90%
+  );
+  border-radius: 5px;
+}
+
+.weather-temperature img {
+  height: 160px;
+  width: 160px;
+  margin: 0px 17px;
+  padding: 0;
+}
+
+.weather-temperature .temperature-degree {
+  position: relative;
+  right: -52px;
+  margin: 0;
+  padding: 0;
+}
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 15px;
+  top: -14px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.button-style {
+  background: #13ade9;
+}
+
+.card-days {
+  margin: 7px;
 }
 
 .icon-days {
   color: #07689f;
   font-size: 50px;
-  padding-bottom: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.footer {
-  position: absolute;
-  top: 510px;
-  margin: 0 235px;
 }
